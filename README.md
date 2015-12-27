@@ -2,7 +2,7 @@
 Show Yahoo Weather info on conky
 
 ##Preview
-![Conky-weather](http://imgur.com/Dlxx3jU.png)
+![Conky-weather](https://github.com/edusig/conky-weather/blob/master/conky-weather.png)
 
 ##Usage
 Find your location code [here](http://woeid.rosselliot.co.nz/). Or just search for your "Yahoo weather woeid".
@@ -24,4 +24,4 @@ Where:
 To avoid lots of requisition to yahoo api a cache file named `cache_<location>.txt` is created in the first run. The default cache time is 1800s or 30 minutes.
 
 ###Optional
-Optionally you can change the default values for location, cache time and user_celsius at the top of the [weather.py]() script.
+Optionally you can change the default values for location, cache time and user_celsius at the top of the [weather.py](https://github.com/edusig/conky-weather/blob/master/weather.py) script.
