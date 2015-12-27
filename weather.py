@@ -1,3 +1,9 @@
+
+__author__ = 'Eduardo Ciciliato'
+__email__ = 'eduardo.ciciliato@gmail.com'
+__license__ = 'GPL 2.0'
+__version__ = '1.0.0'
+
 import urllib2, urllib, json, sys, os
 from datetime import datetime, timedelta
 from shutil import copyfile
