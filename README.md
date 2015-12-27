@@ -1,6 +1,9 @@
 # conky-weather
 Show Yahoo Weather info on conky
 
+##Preview
+![Conky-weather](http://imgur.com/Dlxx3jU.png)
+
 ##Usage
 Find your location code [here](http://woeid.rosselliot.co.nz/). Or just search for your "Yahoo weather woeid".
 
