@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+Returns formatted weather from yahoo data api
+"""
 
 __author__ = 'Eduardo Ciciliato'
 __email__ = 'eduardo.ciciliato@gmail.com'
@@ -51,7 +55,7 @@ def weather(woeid, cache_time, use_celsius):
     # Look for a cache file for your location and temperature type
     if os.path.isfile(os.path.join(PATH_BASE, 'cache_'+woeid+'_'+str(intcelsius)+'.txt')):
         with open(os.path.join(PATH_BASE, 'cache_'+woeid+'_'+str(intcelsius)+'.txt'), 'r') as cfile:
-            date, read_title, cond1, cond2, read_image = cfile.read().splitlines()
+            date, read_title, cond1, cond2 = cfile.read().splitlines()
             now = datetime.utcnow()
             fdate = datetime.strptime(date[:19], '%Y-%m-%d %H:%M:%S')
             tdelta = now - fdate
